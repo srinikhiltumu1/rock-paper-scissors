@@ -42,10 +42,7 @@ jobs:
       - name: Step 3 - Have GitHub actions build the Maven Project
         run: mvn -B package --file pom.xml
 
-      - name: Step 4 - List the current directory
-        run: ls -a
-
-      - name: Step 5 - List the env variables
+      - name: Step 4 - List the env variables
         run: env
 
   build-on-macos:
