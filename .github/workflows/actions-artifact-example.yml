@@ -1,7 +1,7 @@
-name: Publish Github actions artifacts tutorial example 
+name: Publish Github actions artifacts tutorial example
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 jobs:
   archive-build-artifacts:
     runs-on: ubuntu-latest
